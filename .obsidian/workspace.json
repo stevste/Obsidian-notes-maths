@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "84be160fb5e38a98",
+    "type": "split",
+    "children": [
+      {
+        "id": "e890e6d5bbf30117",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdef5e8df45c4406",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Division polynômial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Division polynômial"
+            }
+          },
+          {
+            "id": "f5607aaecd41220d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Suite Numériques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Suite Numériques"
+            }
+          },
+          {
+            "id": "4ff8324a70b9c8f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Variables Aléatoires.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variables Aléatoires"
+            }
+          },
+          {
+            "id": "2832da92cb2b362e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polynôme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Polynôme"
+            }
+          },
+          {
+            "id": "4f25a25d42159a48",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "826ad3271a9a2bca",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea97fd92085ead4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0a2a86aef1d039b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "bf80cb449b442bad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b6e4983ba2c3e815",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "35bbbc5394503ab4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "536d124b03a69288",
+    "type": "split",
+    "children": [
+      {
+        "id": "96fb9a38fba06a04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "464322fe7d23a6a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Polynôme.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Polynôme"
+            }
+          },
+          {
+            "id": "58feae819ad32a17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Limite.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Limite"
+            }
+          },
+          {
+            "id": "4444a1628e6a30d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b4d4336f8eeafe7a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Limite.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Limite"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "4f25a25d42159a48",
+  "lastOpenFiles": [
+    "Variables Aléatoires.md",
+    "Suite Numériques.md",
+    "Polynôme.md",
+    "Morphisme de groupe.md",
+    "Loi de composition.md",
+    "Limite.md",
+    "Groupe symétrique.md",
+    "Groupe.md",
+    "Groupe opérant sur un ensemble.md",
+    "Fraction Rationnelle.md",
+    "Formules de trigonométrie usuelles.md",
+    "Formules de Taylor.md",
+    "Fondement de probabilité.md",
+    "Fonctions Réel.md",
+    "Fonction Polynômial.md",
+    "Extension de corps.md",
+    "Espace Vectoriel.md",
+    "Division polynômial.md",
+    "Éléments Algébrique.md",
+    "Développements limités usuelles.md",
+    "Développement limité.md",
+    "Dérivés Usuelles.md",
+    "Corps.md",
+    "Calcul Différentiel Dans les Réels.md",
+    "Application.md",
+    "Anneau.md"
+  ]
+}
