@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lois de probabilités usuelles.md",
+                "file": "Éléments Algébrique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lois de probabilités usuelles"
+              "title": "Éléments Algébrique"
             }
           }
         ],
@@ -226,30 +226,42 @@
               "icon": "lucide-list",
               "title": "Outline of Limite"
             }
+          },
+          {
+            "id": "b2421282a3e0d4f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 226.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "bases:Create new base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "command-palette:Ouvrir la palette de commandes": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f25a25d42159a48",
+  "active": "a0a2a86aef1d039b",
   "lastOpenFiles": [
+    "Lois de probabilités usuelles.md",
     "Polynôme.md",
     "Calcul Différentiel Dans les Réels.md",
-    "Lois de probabilités usuelles.md",
     "Développements limités usuelles.md",
     "Formules de Taylor.md",
     "Variables Aléatoires.md",
