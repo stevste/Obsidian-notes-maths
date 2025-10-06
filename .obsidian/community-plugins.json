@@ -2,5 +2,6 @@
   "quickadd",
   "templater-obsidian",
   "obsidian-vimrc-support",
-  "obsidian-git"
+  "obsidian-git",
+  "quick-latex"
 ]

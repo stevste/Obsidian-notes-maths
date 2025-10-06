@@ -1,5 +1,53 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "aab55423-004f-41c6-831c-5e28f9692392",
+      "name": "Ensembles courants",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Ensembles courants",
+        "id": "8a0151a2-0d67-4e66-8e51-70d24335668d",
+        "commands": [
+          {
+            "name": "Rechercher & remplacer dans le fichier courant",
+            "type": "Obsidian",
+            "id": "68a6822d-df8a-4b06-b3d7-2fb16f199dfa",
+            "commandId": "editor:open-search-replace"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5adddd91-3c76-41ae-a252-f5c89c15aa44",
+      "name": "Note de base",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Base nouvelle note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "nouvelle note"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
