@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables Aléatoires.md",
+                "file": "Espace Vectoriel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables Aléatoires"
+              "title": "Espace Vectoriel"
             }
           }
         ],
@@ -220,6 +220,9 @@
   },
   "active": "2832da92cb2b362e",
   "lastOpenFiles": [
+    "Axiome du choix.md",
+    "Espace Vectoriel.md",
+    "Variables Aléatoires.md",
     "Suite Numériques.md",
     "Série Numérique.md",
     "README.md",
@@ -242,9 +245,6 @@
     "Développement limité.md",
     "Corps.md",
     "Dérivés Usuelles.md",
-    "Convergence de Probabilité.md",
-    "Calcul Différentiel Dans les Réels.md",
-    "Base nouvelle note.md",
-    "Application.md"
+    "Convergence de Probabilité.md"
   ]
 }

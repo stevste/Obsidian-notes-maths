@@ -50,9 +50,41 @@ Soit $(e_{1,} \dots, e_n)$ une famille de vecteur de $E$. On appelle $\mathbb{K}
 $$
 \text{Vect}(e_{1},\dots, e_{n)}= \{\lambda_{1}e_{1} + \lambda_2e_{2}+ \dots + \lambda_n e_{n} | (\lambda_{1}, \dots, \lambda_{n})\ \in \mathbb{K}^n\}
 $$
+### Famille libre
+
+Soit $(e_{1,} \dots, e_{n)} \in E^{n}$. On dit que les vecteurs $(e_{1,} \dots, e_n)$ forment une famille libre si:
+$$
+\forall (\lambda_{1}, \dots , \lambda_{n}) \in \mathbb{K}, \sum_{i=1}^{n}\lambda_{i}e_{i} = 0 \Rightarrow \lambda_{i} = 0 \forall i \in [\![1, n]\!]
+$$
+on dit aussi des vecteurs $(e_{1,} \dots, e_{n)}$ qu'ils sont linéairement indépendants
+
+Dans le cas d'une famille infinie, si toute sous-famille de cette famille infinie est libre, alors la famille infinie est libre.
+
+Si la famille n'est pas libre, on dit qu'elle est **liée**.
+### Famille génératrice
+
+Soit $E$ un $\mathbb{K}$-ev et $(e_{1,} \dots, e_n)$ une famille de vecteurs de $E$. on dit que $(e_{1,} \dots, e_n)$ est une famille génératrice de $E$ si $E = \text{Vect}(e_{1,} \dots, e_n)$. On dit aussi que la famille engendre $E$.
+### Base
+
+On appelle base de $E$ toute famille libre et génératrice de $E$.
+
+### Dimension
+
+On appelle dimension d'un espace vectoriel $E$, noté dim($E$), le cardinal de toute base de $E$.
+### Rang d'une famille
+
+Soit  un $\mathbb{K}$-ev de dimension $n$ et une famille $(e_{1}, \dots , e_{k})$ de vecteurs de $E$. On appelle rang de la famille, noté $\text{rg}(e_{1}, \dots, e_{k})$, la dimension de l'espace vectoriel engendré par la famille.
 # Théorèmes
 
-### Théorèmes 1
+### Cardinal de la base
+
+Soit $E$ un $\mathbb{K}$-ev, alors toutes les bases de $E$ auront comme cardinal dim($E$).
+### Théorème de la base incomplète
+
+Soit  un $\mathbb{K}$-ev de dimension $n$, toute famille libre $(e_{1}, \dots , e_{k})$ de $E$ peut-être complété en une base $(e_{1}, \dots , e_{n})$ de $E$.
+### Théorème de la base incomplète
+
+Soit  un $\mathbb{K}$-ev de dimension $n$, de toute famille génératrice $(e_{1}, \dots , e_{k})$ de $E$, on peut en extraire une base $(e_{1}, \dots , e_{n})$ de $E$.
 # Propriétés
 
 - Propriétés du vecteur nul:
@@ -67,3 +99,17 @@ $$
 - Soit $A$ et $B$ deux sev de $E$, alors $A + B$ est un sev de $E$
 - Soit $A$ et $B$ deux sev de $E$, $A$ et $B$ sont en somme directe ssi: $A \cap B = \{0_E\}$
 - Vect$(e_{1,}\dots, e_n)$ est le plus petit $\mathbb{K}$-sev contenant la famille $(e_{1},\dots, e_n)$.
+- Toute famille d'une sous libre est libre
+- Toute famille contenant $0_{E}$ est liée.
+- Toute sur-famille d'une famille liée est liée
+- Une famille de vecteur est liée si tout vecteur de la famille peut s'écrire comme une combinaison linéaire des autres vecteurs de la famille.
+- Tout espace vectoriel sur $\mathbb{K}$ non réduit au vecteur nul admet une base (pour peu que l'on accepte l'[[Axiome du choix]]).
+- Soit $E$ un $\mathbb{K}$-ev de dimension $n$ et $(e_{1}, \dots , e_{k})$ une famille de vecteurs de $E$:
+	- Si la famille est libre: $k \leqslant n$
+	- Si la famille est libre et que $k = n$, alors la famille est une base (on dit que la famille est libre maximal)
+	- Si la famille est génératrice: $k \geqslant n$
+	- Si la famille est génératrice et $k = n$, alors il s'agit d'une base (on dit que la famille est génératrice minimal)
+- Soit $E$ un $\mathbb{K}$-ev et $F$ un $\mathbb{K}$-sev de $E$. Alors:
+	- dim($F$) $\leqslant$ dim($E$)
+	- dim($E$) = dim($F$) $\Rightarrow E = F$
+- Formule de Grassmann: Soit $E$ un$\mathbb{K}$-ev de dimension $n$ et $A, B$ deux sous espaces vectoriels de $E$, alors: dim($A + B$) = dim($A$) + dim($B$) - dim($A \cap B$).
