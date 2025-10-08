@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Division polynômial.md",
+                "file": "Convergence de Probabilité.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Division polynômial"
+              "title": "Convergence de Probabilité"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Espace Vectoriel.md",
+                "file": "Lois de probabilités usuelles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Espace Vectoriel"
+              "title": "Lois de probabilités usuelles"
             }
           }
         ],
@@ -220,15 +220,17 @@
   },
   "active": "2832da92cb2b362e",
   "lastOpenFiles": [
-    "Axiome du choix.md",
+    "Convergence de Probabilité.md",
+    "Division polynômial.md",
+    "Lois de probabilités usuelles.md",
     "Espace Vectoriel.md",
+    "Axiome du choix.md",
     "Variables Aléatoires.md",
     "Suite Numériques.md",
     "Série Numérique.md",
     "README.md",
     "Polynôme.md",
     "Morphisme de groupe.md",
-    "Lois de probabilités usuelles.md",
     "Loi de composition.md",
     "Limite.md",
     "Intégrale Généralisé.md",
@@ -243,8 +245,6 @@
     "Fonction Polynômial.md",
     "Extension de corps.md",
     "Développement limité.md",
-    "Corps.md",
-    "Dérivés Usuelles.md",
-    "Convergence de Probabilité.md"
+    "Corps.md"
   ]
 }

@@ -38,6 +38,10 @@ $$
 $$
 \mathbb{V}(X) = p(1-p)
 $$
+#### Convergence (Théorème de Moivre Laplace)
+
+Soit $(X_{n})$ une suite de VA indépendantes suivant une loi de Bernoulli de paramètre $p$, soit$S_{n}= \sum_{i=1}^{n}X_{i}$.
+Alors $\frac{S_{n} - np}{\sqrt{np(1-p)}} \xrightarrow{\text{loi}} \mathcal{N}(0, 1)$.
 ## Loi binomiale
 
 #### Contexte
@@ -59,6 +63,9 @@ $$
 $$
 \mathbb{V}(X) = np(1-p)
 $$
+#### Convergence
+
+Si $n \geqslant 30, p \leqslant 0.1, np \leqslant 15$, alors la variable $Y \rightsquigarrow \mathcal{P}(np)$ est une bonne approximation de $X$
 ## Loi géométrique
 
 #### Contexte
@@ -101,6 +108,12 @@ $$
 $$
 \mathbb{V}(X) = \lambda
 $$
+
+#### Convergence
+
+Soit $(X_n)$ une suite de VA indépendantes suivant une loi de poisson de paramètre $\mu$.
+Soit $S_{n}= \sum_{i=1}^{n}X_{i}$.
+Alors $\frac{S_{n} - n\mu}{\sqrt{n\mu}} \xrightarrow{\text{loi}} \mathcal{N}(0, 1)$
 # Lois continues
 
 ## Loi uniforme
