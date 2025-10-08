@@ -1,4 +1,4 @@
-#Formules #Prépa 
+#Formules #Prépa #Analyse 
 
 Liste de [[Développement limité]] de degrés n en 0.
 $$

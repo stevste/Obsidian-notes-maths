@@ -9,6 +9,12 @@ On considère une suite de [[Variables Aléatoires]] $(X_i)_{i \in \mathbb{N}, i
 $$
 \overline{X_n} = \frac{1}{n}\sum_{i = 1}^n X_i
 $$
+### Variance Empirique
+
+On considère une suite de [[Variables Aléatoires]]  indépendantes de même loi admettant chacune une espérance et une variance, on appelle moyenne empirique d'ordre $n$ la variable aléatoire définit par:
+$$
+S_{n}^{2} = \frac{1}{n} \sum_{i=1}^{n} (X_{i} - \overline{X_{n}})^{2}
+$$
 ### Convergence en probabilité
 
 Soient $(\Omega, \mathcal{A}, \mathbb{P})$, $(X_i)_{i \in \mathbb{N}, i > 0}$ une suite de VA et $X$ une VA.
@@ -40,7 +46,7 @@ $$
 $$
 ### Théorème central limite
 
- une suite de variable aléatoire indépendantes de même loi admettant une espérence $m$ et une variance $\sigma^2$, alors:
+ Soit $(X_i)_{i \in \mathbb{N}, i > 0}$ une suite de variable aléatoire indépendantes de même loi admettant une espérance $m$ et une variance $\sigma^2$, alors:
 $$
 \frac{\overline{X_n} - m}{\frac{\sigma}{\sqrt{n}}} \xrightarrow{\text{loi}} \mathcal{N}(0; 1)
 $$
