@@ -38,7 +38,7 @@ $$
 $$
 \mathbb{V}(X) = p(1-p)
 $$
-## Loi Binomiale
+## Loi binomiale
 
 #### Contexte
 
@@ -103,6 +103,7 @@ $$
 $$
 # Lois continues
 
+## Loi uniforme
 #### Contexte
 
 Généralisation de la notion d'équiprobabilité sur un intervalle de $\mathbb{R}$
@@ -124,7 +125,7 @@ $$
 $$
 \mathbb{V}(X) = \frac{(b-a)^2}{12}
 $$
-## Lois Exponentielle
+## Lois exponentielle
 
 #### Contexte
 
@@ -147,7 +148,31 @@ $$
 $$
 \mathbb{V}(X) = \frac{1}{\lambda^2}
 $$
-## Loi Normale
+## Loi gamma
+
+#### Probabilité:
+
+$$\begin{array}{c}
+X \rightsquigarrow \mathcal{G}_{a}(\alpha, \lambda) \\
+f(t) =
+\begin{cases} \frac{{\lambda^{\alpha}x^{\alpha-1}}}{{\Gamma(\alpha)}}e^{-\lambda t} & \text{si } t \geqslant 0 \\
+0 & \text{sinon}
+\end{cases}
+\end{array}$$
+Avec $\Gamma$ la fonction défini comme:
+$$
+\Gamma(\alpha) = \int_{0}^{+\infty}t^{\alpha-1}e^{-1}\mathrm{d}t
+$$
+#### Espérance
+
+$$
+\mathbb{E}(X) = \frac{\alpha}{\lambda}
+$$
+#### Variance
+$$
+\mathbb{V}(X) = \frac{\alpha}{\lambda^2}
+$$
+## Loi normale
 
 #### Contexte
 
