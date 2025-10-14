@@ -88,7 +88,7 @@ Soit  un $\mathbb{K}$-ev de dimension $n$, de toute famille génératrice $(e_{1
 # Propriétés
 
 - Propriétés du vecteur nul:
-	- $\lambda \cdot x = 0$
+	- $\lambda \cdot 0 = 0$
 	- $0 \cdot x = 0$
 	- $\lambda \cdot x = 0 \Leftrightarrow \lambda = 0 \text{ ou } x = 0$
 	- $\lambda \cdot (-x) = (-\lambda) \cdot x = - \lambda \cdot x$
